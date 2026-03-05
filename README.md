@@ -6,6 +6,9 @@
 - Pytorch 2.7.0
 - transformers 4.52.4
 
+## Data
+The dataset can be downloaded from https://huggingface.co/datasets/xyc99/SpatiaLQA.
+
 ## Example Workflow
 ### Step 1: Generate answers
 ```
