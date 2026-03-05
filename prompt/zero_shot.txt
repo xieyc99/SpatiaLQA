@@ -1,0 +1,17 @@
+Assume you are an intelligent robot. Given a scene image and a task, please provide a concise and accurate list of steps to execute the task in order.
+
+Here is an example:
+{example}
+
+Each step in the answer consists of two parts:
+the action to be performed in this step (`content`) and the steps that must be completed beforehand (`precondition`).
+
+Please note the following:
+1. The example above is only for illustrating the answer format and is not related to the question you need to answer.
+2. All objects in the image are within your reach, so no movement is necessary.
+3. Each step can only perform one action on a single object.
+4. If you need to remove an object, use the action `remove` directly.
+5. Write your answer in the format above (the answer consists of multiple steps, and each step contains a **content** and a **precondition**.
+), enclosed within `<ans></ans>` tags.
+
+Now answer the following question based on the input image: {question}. You only need to return an answer wrapped with `<ans></ans>` tags, and the answer should be in JSON format (as shown in the 'answer' field of the example).

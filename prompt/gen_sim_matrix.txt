@@ -1,0 +1,16 @@
+You are given an image and two list of step descriptions (Ground Truth List and Predicted List), each containing multiple sentences describing actions.
+
+Your task is to compare each sentence in Ground Truth List with each sentence in Predicted List, and determine whether they describe the same action in the context of the image. Two sentences are considered the same if they refer to the same objects and the same operations with no significant difference in meaning or execution.
+
+Please output an m × n matrix where:
+1. m is the number of steps in Ground Truth List
+2. n is the number of steps in Predicted List
+3. Each cell [i][j] is either 1 (Yes) or 0 (No), indicating whether sentence i from Ground Truth List is equivalent in meaning to sentence j from Predicted List
+
+Ground Truth List:
+{ground_truth_steps}
+
+Predicted List:
+{predicted_steps}
+
+Please output an m × n matrix (list of lists), with each element being either 1 or 0. You only need to return a list of lists wrapped with `<ans></ans>` tags (e.g., <ans>[[0, 1], [1, 1]]</ans>).

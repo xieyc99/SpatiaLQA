@@ -1,0 +1,27 @@
+[
+    {
+        "question": "Pick up the laptop",
+        "answer": {
+            "step1":{
+                "content": "Remove the stapler from the top of the book",
+                "precondition":[]
+            }, 
+            "step2":{
+                "content": "Remove the keys from the top of the book",
+                "precondition":[]
+            }, 
+            "step3":{
+                "content": "Remove the toliet paper from the top of the laptop",
+                "precondition":[]
+            }, 
+            "step4":{
+                "content": "Remove the book from the top of the laptop",
+                "precondition":["step1", "step2"]
+            }, 
+            "step5":{
+                "content": "Pick up the laptop",
+                "precondition":["step3", "step4"]
+            }
+        }
+    }
+]
