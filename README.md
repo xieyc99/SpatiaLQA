@@ -12,7 +12,7 @@
 python answer.py
 ```
 
-### Step 2: Generate similarity matrix
+### Step 2: Generate matching matrix
 ```
 python gen_sim_matrix.py
 ```
